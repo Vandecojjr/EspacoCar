@@ -1,6 +1,0 @@
-@EspacoCarApi_HostAddress = http://localhost:5260
-
-GET {{EspacoCarApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
