@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Flunt/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/8.0.1": {
         "type": "package",
         "dependencies": {
@@ -107,10 +116,48 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "ProdutoServico.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Flunt": "1.0.4"
+        },
+        "compile": {
+          "bin/placeholder/ProdutoServico.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProdutoServico.Domain.dll": {}
+        }
+      },
+      "ProdutoServico.Domain.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ProdutoServico.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProdutoServico.Domain.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProdutoServico.Domain.Infra.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Flunt/1.0.4": {
+      "sha512": "zsKA3Wol1+UeQBYtXuO56+ua6DBUpD5dcp3iAa86W5WcMLOWBMaDXKdqIrrLNgQUOW/U/svecb4ldgqwnC9XDQ==",
+      "type": "package",
+      "path": "flunt/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.1.0.4.nupkg.sha512",
+        "flunt.nuspec",
+        "lib/netstandard2.0/Flunt.dll"
+      ]
+    },
     "Microsoft.AspNetCore.OpenApi/8.0.1": {
       "sha512": "JF0U31SByntKEhZNC8ch3CD87BLZb5AzSujOBppLdvnjYu3W2XZvlsol5hUJfxiaHOp720cUiL6wzG8Bv0fI2Q==",
       "type": "package",
@@ -451,11 +498,23 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "ProdutoServico.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ProdutoServico.Domain/ProdutoServico.Domain.csproj",
+      "msbuildProject": "../ProdutoServico.Domain/ProdutoServico.Domain.csproj"
+    },
+    "ProdutoServico.Domain.Infra/1.0.0": {
+      "type": "project",
+      "path": "../ProdutoServico.Domain.Infra/ProdutoServico.Domain.Infra.csproj",
+      "msbuildProject": "../ProdutoServico.Domain.Infra/ProdutoServico.Domain.Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.1",
+      "ProdutoServico.Domain >= 1.0.0",
+      "ProdutoServico.Domain.Infra >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -485,7 +544,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\dev\\EspacoCar\\Backend\\ProdutoServico.Servico\\ProdutoServico.Domain.Infra\\ProdutoServico.Domain.Infra.csproj": {
+              "projectPath": "C:\\dev\\EspacoCar\\Backend\\ProdutoServico.Servico\\ProdutoServico.Domain.Infra\\ProdutoServico.Domain.Infra.csproj"
+            },
+            "C:\\dev\\EspacoCar\\Backend\\ProdutoServico.Servico\\ProdutoServico.Domain\\ProdutoServico.Domain.csproj": {
+              "projectPath": "C:\\dev\\EspacoCar\\Backend\\ProdutoServico.Servico\\ProdutoServico.Domain\\ProdutoServico.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

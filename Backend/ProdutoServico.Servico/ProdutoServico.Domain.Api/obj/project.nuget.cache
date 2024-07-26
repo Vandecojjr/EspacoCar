@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0rGo76crFAzKvQuZekobwiN6s2ZURdoJVRSlToJSDgEuSUOmXQELXl6x0F92oixcKjvIoxlFPm8OIOs8Ispg6A==",
+  "dgSpecHash": "OfBbX8wYqcsNF52hZFcUzaVNpmXtCELkCnIB3Tpk1D28pLWH978CAy2HPyhVkUeo0Qvm+Bcn39QHcaqJvmQf7A==",
   "success": true,
   "projectFilePath": "C:\\dev\\EspacoCar\\Backend\\ProdutoServico.Servico\\ProdutoServico.Domain.Api\\ProdutoServico.Domain.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Vanderlei\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512",
     "C:\\Users\\Vanderlei\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.1\\microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",
     "C:\\Users\\Vanderlei\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Vanderlei\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",

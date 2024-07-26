@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hGAXMtQq0WQHZhosHtVmjbtVvTKw3qcrg32tdndW2Ny3BSYaGG5Hw600PCXB42DVFOYa86xcn83i9WOy1iqV3g==",
+  "dgSpecHash": "QqZPFlFQmRyJ8XiMEYblVR6M2FZMzKioYqN+wvdmt70gLSFvgMaTQf6f2ydQhL88TT0pXGoltLFGEVnVGTAzqw==",
   "success": true,
   "projectFilePath": "C:\\dev\\EspacoCar\\Backend\\ProdutoServico.Servico\\ProdutoServico.Domain.Infra\\ProdutoServico.Domain.Infra.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Vanderlei\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

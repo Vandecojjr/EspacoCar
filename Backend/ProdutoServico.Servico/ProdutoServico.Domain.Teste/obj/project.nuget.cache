@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3tNwRrOYnkw23ffkLZg4rm50kPK8r5gU3iPmnB/XCmO6Q3PUn1AWjEFvGcehJT8lOMNowXAyrl8p+ItvAHWVLw==",
+  "dgSpecHash": "yDV8MeBjb7cdsqQ9beP4CGwGGqdRnMLe5w8VqSofCRBPyaZbzSiIpzhrqnsallpJCqlS5yET3TkgAEk1bkuhig==",
   "success": true,
   "projectFilePath": "C:\\dev\\EspacoCar\\Backend\\ProdutoServico.Servico\\ProdutoServico.Domain.Teste\\ProdutoServico.Domain.Teste.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vanderlei\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\Vanderlei\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512",
     "C:\\Users\\Vanderlei\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
     "C:\\Users\\Vanderlei\\.nuget\\packages\\microsoft.net.test.sdk\\17.6.0\\microsoft.net.test.sdk.17.6.0.nupkg.sha512",
     "C:\\Users\\Vanderlei\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.6.0\\microsoft.testplatform.objectmodel.17.6.0.nupkg.sha512",
